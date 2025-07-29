@@ -8,23 +8,13 @@
   <body>
     <h1>Vue3</h1>
     <div id="app">
-      <p>{{ message }}</p>
-      <p>{{ count }}</p>
-      <p>{{ user.lastName }}</p>
-      <p>{{ colors[1] }}</p>
+      {{ message }}
     </div>
     <script>
       const appdata = {
         data() {
           return {
-            message: 'Hello Vue',
-            count: 77,
-            user: {
-              lastName: 'Osonoi',
-              firsName: 'yasushi',
-              country: 'Japan',
-            },
-            colors: ['Red', 'Green', 'Blue']
+            message: "Hello Vue"
           }
         }
       }
